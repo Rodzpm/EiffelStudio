@@ -1,0 +1,7 @@
+Never Gonna Give You Up
+Rick Astley
+113
+Triangle
+----
+C#5=2 D#5=2 G#4=1.25 D#5=2 F5=2 G#5=0.25 F#5=0.25 F5=0.25 C#5=0.25
+C#5=2 D#5=2 G#4=4.5 G#4=0.25 G#4=0.25 A#4=0.25 C#5=2

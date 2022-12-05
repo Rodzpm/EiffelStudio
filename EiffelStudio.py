@@ -1,4 +1,4 @@
-from gensound import Sine, Triangle, Square, Pan
+from gensound import *
 from colorama import *
 from sys import argv
 
