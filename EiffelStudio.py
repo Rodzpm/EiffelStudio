@@ -1,5 +1,6 @@
 from gensound import Sine, Triangle, Square, Pan
 from colorama import *
+from sys import argv
 
 class Config:
         def __init__(self, file_path):
@@ -31,7 +32,8 @@ class Config:
                 print(Fore.BLUE + self.desc[2], end="")
                 print(Style.RESET_ALL, end=" BPM\n")
 
-def export_part(file_path):
+def export_part():
+        file_path = argv[1]
         config = Config(file_path)
         config.print_config()
         chorale = 0
@@ -40,6 +42,7 @@ def export_part(file_path):
                 chorale += config.synth[i](config.song[i], duration=config.BPM)
         chorale.export(file_path[:-4]+".wav") # can you spot the parallel octaves?
 
-export_part("elise.txt")
+if "__main__" == __name__:
+        export_part()
 
 
