@@ -1,6 +1,12 @@
 # EiffelStudio
 Music experimentation with python
 
+# How to use it
+
+```bash
+python3 EiffelStudio.py your_partition.txt
+```
+
 # How to write your own partition
 
 Exemple avec La Lettre à Elise
